@@ -1,0 +1,81 @@
+#background {
+    background-image: url(images/ProfilePictureLarge.jpg); 
+    background-color:;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+
+.bg-colour {
+    background-color: #cea520;
+} 
+
+
+@media screen and (max-width: 768px) {
+    #background {
+        background-image: url(images/ProfilePictureMedium.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #background {
+    background-image: url(images/ProfilePictureSmall.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    }
+
+ text-align: center;
+    background-color: #4a2545;
+    color: white;    
+}
+
+.animation:hover {
+    filter: opacity(50%); 
+}
+
+.button-colour {
+    background-color:#cea520;
+    border: 0;
+}
+.link-colour {
+    color:black;
+}
+.button-colour:hover {
+    background-color: #dccca3;
+}
+
+.link-colour:hover {
+    color:#cea520;
+    font-weight: bolder;
+}
+
+@keyframes LogoAnimation {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+ }
+ 
+ 
+ .bounce:hover {
+     animation-name: LogoAnimation;
+     animation-duration: 1s;
+     animation-iteration-count: initial;
+     animation-timing-function: ease-out;
+     animation-direction: reverse;  
+}
+footer {
+    display: block;
+    text-align: center;
+    background-color:#cea520;
+    color: white;
+}
+
